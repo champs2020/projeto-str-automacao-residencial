@@ -1,0 +1,23 @@
+
+# Kconfig exemplo
+menu "Wifi Setup"
+ 
+ 
+    config ESP_WIFI_SSID
+        string ""
+        default ssid
+        help
+            Enter ssid
+               
+    config ESP_WIFI_PASSWORD
+        string ""
+        default password
+        help
+            Enter password
+
+    config ESP_MAXIMUM_RETY
+        int ""
+        default 1
+        help
+            Enter tmax retry
+endmenu
