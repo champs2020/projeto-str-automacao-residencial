@@ -1,5 +1,5 @@
 # projeto-str-automacao-residencial
-Nesse projeto de automação residencial foi implementado o sensoriamento (simulado) de temperatura, umidade, fumaça, presença na casa, e campanhia do portão.
+Nesse projeto de automação residencial foi implementado o sensoriamento (simulado) de temperatura, umidade, fumaça, presença na casa, e campanhia do portão (com botão físico da placa do ESP).
 
 O código é foi construído baseado no Sistema Operacional em Tempo Real FreeRTOS no microcontrolador ESP32.
 * Foram implementada a seguinte estrutura:
@@ -15,4 +15,6 @@ Com relação a aplicação dos conceitos de Sistema em Tempo Real foram utiliza
 * Filas
 * EventGroups
 * Notifications
+
+- Link do vídeo de apresentação e explicação do código: https://youtu.be/cdWiULNbhU4
 
